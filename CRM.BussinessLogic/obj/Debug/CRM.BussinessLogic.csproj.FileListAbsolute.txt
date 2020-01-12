@@ -1,0 +1,11 @@
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.dll.config
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.dll
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.pdb
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.dll
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.xml
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.csprojAssemblyReference.cache
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.csproj.CopyComplete
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.dll
+D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.pdb
