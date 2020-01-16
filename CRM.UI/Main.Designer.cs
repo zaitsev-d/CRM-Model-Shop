@@ -33,7 +33,7 @@
             this.ProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AddToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SellerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.AddToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.SellerAddToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.BuyerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.AddToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.CheckToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -71,26 +71,28 @@
             this.ProductToolStripMenuItem.Text = "Product";
             this.ProductToolStripMenuItem.Click += new System.EventHandler(this.ProductToolStripMenuItem_Click);
             // 
-            // AddToolStripMenuItem
+            // ProductAddToolStripMenuItem1
             // 
-            this.AddToolStripMenuItem.Name = "AddToolStripMenuItem";
-            this.AddToolStripMenuItem.Size = new System.Drawing.Size(120, 26);
+            this.AddToolStripMenuItem.Name = "AddToolStripMenuItem1";
+            this.AddToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.AddToolStripMenuItem.Text = "Add";
+            this.AddToolStripMenuItem.Click += new System.EventHandler(this.ProductAddToolStripMenuItem1_Click);
             // 
             // SellerToolStripMenuItem
             // 
             this.SellerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.AddToolStripMenuItem1});
+            this.SellerAddToolStripMenuItem1});
             this.SellerToolStripMenuItem.Name = "SellerToolStripMenuItem";
             this.SellerToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.SellerToolStripMenuItem.Text = "Seller";
             this.SellerToolStripMenuItem.Click += new System.EventHandler(this.SellerToolStripMenuItem_Click);
             // 
-            // AddToolStripMenuItem1
+            // SellerAddToolStripMenuItem1
             // 
-            this.AddToolStripMenuItem1.Name = "AddToolStripMenuItem1";
-            this.AddToolStripMenuItem1.Size = new System.Drawing.Size(120, 26);
-            this.AddToolStripMenuItem1.Text = "Add";
+            this.SellerAddToolStripMenuItem1.Name = "SellerAddToolStripMenuItem1";
+            this.SellerAddToolStripMenuItem1.Size = new System.Drawing.Size(120, 26);
+            this.SellerAddToolStripMenuItem1.Text = "Add";
+            this.SellerAddToolStripMenuItem1.Click += new System.EventHandler(this.SellerAddToolStripMenuItem1_Click);
             // 
             // BuyerToolStripMenuItem
             // 
@@ -104,7 +106,7 @@
             // AddToolStripMenuItem2
             // 
             this.AddToolStripMenuItem2.Name = "AddToolStripMenuItem2";
-            this.AddToolStripMenuItem2.Size = new System.Drawing.Size(224, 26);
+            this.AddToolStripMenuItem2.Size = new System.Drawing.Size(120, 26);
             this.AddToolStripMenuItem2.Text = "Add";
             this.AddToolStripMenuItem2.Click += new System.EventHandler(this.BuyerAddToolStripMenuItem2_Click);
             // 
@@ -140,7 +142,7 @@
         private System.Windows.Forms.ToolStripMenuItem BuyerToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem CheckToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem AddToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem AddToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem SellerAddToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem AddToolStripMenuItem2;
     }
 }

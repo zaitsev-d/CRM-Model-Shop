@@ -17,3 +17,5 @@ D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.csproj.CopyComplete
 D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.exe
 D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.pdb
 D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.CustomerForm.resources
+D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.SellerForm.resources
+D:\Workspace\C#\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.ProductForm.resources
