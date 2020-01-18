@@ -19,16 +19,20 @@ namespace CRM.UI
             InitializeComponent();
         }
 
+        public SellerForm(Seller seller): this()
+        {
+            Seller = seller;
+            textBox2.Text = Seller.Name;
+        }
+
         private void SellerForm_Load(object sender, EventArgs e)
         {
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Seller = new Seller()
-            {
-                Name = textBox2.Text
-            };
+            var s = Seller ?? new Seller();
+            s.Name = textBox2.Text;
             Close();
         }
     }

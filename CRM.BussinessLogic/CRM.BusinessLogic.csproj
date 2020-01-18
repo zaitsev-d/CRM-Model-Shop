@@ -53,6 +53,7 @@
       <DependentUpon>202001101808568_CRM Model Shop DB.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Cart.cs" />
     <Compile Include="Model\Check.cs" />
     <Compile Include="Model\CRMContext.cs" />
     <Compile Include="Model\Customer.cs" />

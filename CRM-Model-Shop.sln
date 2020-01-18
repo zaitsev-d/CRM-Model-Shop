@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.BusinessLogic", "CRM.Bu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.UI", "CRM.UI\CRM.UI.csproj", "{C22DACCD-A32F-4727-BF07-76FA21B55677}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRM.BusinessLogicTests", "CRM.BusinessLogicTests\CRM.BusinessLogicTests.csproj", "{FBD63EF3-3891-4F2E-BD71-DB5EE6E50BE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{C22DACCD-A32F-4727-BF07-76FA21B55677}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22DACCD-A32F-4727-BF07-76FA21B55677}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22DACCD-A32F-4727-BF07-76FA21B55677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBD63EF3-3891-4F2E-BD71-DB5EE6E50BE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBD63EF3-3891-4F2E-BD71-DB5EE6E50BE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBD63EF3-3891-4F2E-BD71-DB5EE6E50BE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBD63EF3-3891-4F2E-BD71-DB5EE6E50BE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

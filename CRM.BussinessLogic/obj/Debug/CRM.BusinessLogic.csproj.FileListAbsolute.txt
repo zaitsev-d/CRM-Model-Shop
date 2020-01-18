@@ -11,3 +11,16 @@ D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.p
 D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.Migrations.CRMModelShopDB.resources
 D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.csproj.GenerateResource.cache
 D:\Workspace\C#\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.csprojAssemblyReference.cache
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.dll.config
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.dll
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\CRM.BussinessLogic.pdb
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.dll
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.xml
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.csprojAssemblyReference.cache
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.Migrations.CRMModelShopDB.resources
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.csproj.GenerateResource.cache
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BusinessLogic.csproj.CopyComplete
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.dll
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.BussinessLogic\obj\Debug\CRM.BussinessLogic.pdb
