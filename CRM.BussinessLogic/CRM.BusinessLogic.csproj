@@ -54,12 +54,15 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Cart.cs" />
+    <Compile Include="Model\CashDesk.cs" />
     <Compile Include="Model\Check.cs" />
     <Compile Include="Model\CRMContext.cs" />
     <Compile Include="Model\Customer.cs" />
+    <Compile Include="Model\Generator.cs" />
     <Compile Include="Model\Product.cs" />
     <Compile Include="Model\Sell.cs" />
     <Compile Include="Model\Seller.cs" />
+    <Compile Include="Model\ShopComputerModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -70,6 +73,9 @@
     <EmbeddedResource Include="Migrations\202001101808568_CRM Model Shop DB.resx">
       <DependentUpon>202001101808568_CRM Model Shop DB.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controller\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

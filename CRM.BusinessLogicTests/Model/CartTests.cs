@@ -20,6 +20,7 @@ namespace CRM.BusinessLogic.Model.Tests
                 CustomerID = 1,
                 Name = "TestUser"
             };
+
             var product1 = new Product()
             {
                 ProductID = 1,
@@ -27,6 +28,7 @@ namespace CRM.BusinessLogic.Model.Tests
                 Price = 100,
                 Count = 1000
             };
+
             var product2 = new Product()
             {
                 ProductID = 1,
@@ -34,18 +36,17 @@ namespace CRM.BusinessLogic.Model.Tests
                 Price = 200,
                 Count = 20
             };
+
             var cart = new Cart(customer);
 
             var expectedResult = new List<Product>()
             {
-                product1, product1, product2, product2, product2
+                product1, product1, product2
             };
 
             // act
             cart.Add(product1);
             cart.Add(product1);
-            cart.Add(product2);
-            cart.Add(product2);
             cart.Add(product2);
 
             var cartResult = cart.GetAll();
