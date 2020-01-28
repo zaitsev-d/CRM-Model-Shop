@@ -52,6 +52,10 @@
     <Compile Include="Migrations\202001101808568_CRM Model Shop DB.Designer.cs">
       <DependentUpon>202001101808568_CRM Model Shop DB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001281114079_update202001.cs" />
+    <Compile Include="Migrations\202001281114079_update202001.Designer.cs">
+      <DependentUpon>202001281114079_update202001.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Cart.cs" />
     <Compile Include="Model\CashDesk.cs" />
@@ -72,6 +76,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202001101808568_CRM Model Shop DB.resx">
       <DependentUpon>202001101808568_CRM Model Shop DB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001281114079_update202001.resx">
+      <DependentUpon>202001281114079_update202001.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup />

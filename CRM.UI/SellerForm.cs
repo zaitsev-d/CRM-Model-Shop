@@ -21,7 +21,7 @@ namespace CRM.UI
 
         public SellerForm(Seller seller): this()
         {
-            Seller = seller;
+            Seller = seller ?? new Seller();
             textBox2.Text = Seller.Name;
         }
 
@@ -31,8 +31,8 @@ namespace CRM.UI
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var s = Seller ?? new Seller();
-            s.Name = textBox2.Text;
+            Seller = Seller ?? new Seller();
+            Seller.Name = textBox2.Text;
             Close();
         }
     }
