@@ -66,5 +66,11 @@ namespace CRM.UI
                 db.SaveChanges();
             }
         }
+
+        private void ModellingToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var form = new ModelForm();
+            form.Show();
+        }
     }
 }
