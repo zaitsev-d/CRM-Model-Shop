@@ -41,3 +41,4 @@ D:\Workspace\GitHub\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.csproj.CopyComplete
 D:\Workspace\GitHub\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.exe
 D:\Workspace\GitHub\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.pdb
 D:\Workspace\GitHub\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.ModelForm.resources
+D:\Workspace\GitHub\CRM-Model-Shop\CRM.UI\obj\Debug\CRM.UI.AuthorizationForm.resources

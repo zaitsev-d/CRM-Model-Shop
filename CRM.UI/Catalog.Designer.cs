@@ -89,7 +89,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dataGridView);
             this.Name = "Catalog";
-            this.Text = "Catalog";
+            this.Text = "CRM - Catalog";
             this.Load += new System.EventHandler(this.Catalog_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).EndInit();
             this.ResumeLayout(false);

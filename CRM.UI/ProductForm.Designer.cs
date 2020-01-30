@@ -129,7 +129,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.textBox3);
             this.Name = "ProductForm";
-            this.Text = "Product Form";
+            this.Text = "CRM - Product Form";
             this.Load += new System.EventHandler(this.ProductForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();

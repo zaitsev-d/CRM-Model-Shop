@@ -5,7 +5,7 @@ namespace CRM.BusinessLogic.Model
 {
     public class CashDesk
     {
-        CRMContext db = new CRMContext();
+        CRMContext db;
 
         public int Number { get; set; }
         public Seller Seller { get; set; }
@@ -17,14 +17,14 @@ namespace CRM.BusinessLogic.Model
 
         public event EventHandler<Check> CheckClosed;
 
-        public CashDesk(int number, Seller seller)
+        public CashDesk(int number, Seller seller, CRMContext db)
         {
             Number = number;
             Seller = seller;
             Queue = new Queue<Cart>();
             IsModel = true;
             MaxQueueLength = 10;
-            //this.db = db ?? new CRMContext();
+            this.db = db ?? new CRMContext();
         }
 
         public void Enqueue(Cart cart)

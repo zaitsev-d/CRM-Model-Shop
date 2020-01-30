@@ -72,7 +72,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox2);
             this.Name = "SellerForm";
-            this.Text = "Seller Form";
+            this.Text = "CRM - Seller Form";
             this.Load += new System.EventHandler(this.SellerForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
