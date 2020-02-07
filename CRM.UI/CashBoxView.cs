@@ -11,6 +11,7 @@ namespace CRM.UI
     class CashBoxView
     {
         CashDesk cashDesk;
+
         public Label CashDeskName { get; set; }
         public NumericUpDown Price { get; set; }
         public ProgressBar QueueLength { get; set; }
@@ -27,14 +28,14 @@ namespace CRM.UI
             // label
             //
             CashDeskName.AutoSize = true;
-            CashDeskName.Location = new System.Drawing.Point(x, y + 3);
+            CashDeskName.Location = new System.Drawing.Point(x, y + 26);
             CashDeskName.Name = "label" + number;
             CashDeskName.Size = new System.Drawing.Size(35, 13);
             CashDeskName.TabIndex = number;
             CashDeskName.Text = cashDesk.ToString();
             //
             LeaveCustomersCount.AutoSize = true;
-            LeaveCustomersCount.Location = new System.Drawing.Point(x + 350, y);
+            LeaveCustomersCount.Location = new System.Drawing.Point(x + 350, y + 26);
             LeaveCustomersCount.Name = "label2" + number;
             LeaveCustomersCount.Size = new System.Drawing.Size(35, 13);
             LeaveCustomersCount.TabIndex = number;
@@ -42,7 +43,7 @@ namespace CRM.UI
             // 
             // numericUpDown
             // 
-            Price.Location = new System.Drawing.Point(x + 80, y);
+            Price.Location = new System.Drawing.Point(x + 80, y + 23);
             Price.Name = "numericUpDown" + number;
             Price.Size = new System.Drawing.Size(120, 20);
             Price.TabIndex = number;
@@ -50,7 +51,7 @@ namespace CRM.UI
             // 
             // progressBar
             // 
-            QueueLength.Location = new System.Drawing.Point(x + 210, y);
+            QueueLength.Location = new System.Drawing.Point(x + 210, y + 23);
             QueueLength.Maximum = cashDesk.MaxQueueLength;
             QueueLength.Name = "progressBar" + number;
             QueueLength.Size = new System.Drawing.Size(100, 23);

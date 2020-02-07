@@ -57,7 +57,6 @@ namespace CRM.BusinessLogic.Model
         public void Stop()
         {
             cancelTokenSource.Cancel();
-            Thread.Sleep(1000);
         }
 
         private void CashDeskWork(CashDesk cashDesk, CancellationToken token)

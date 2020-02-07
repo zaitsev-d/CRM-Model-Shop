@@ -82,6 +82,7 @@ namespace CRM.UI
         private void ModellingToolStripMenuItem_Click(object sender, EventArgs e)
         {
             var form = new ModelForm();
+            form.StartPosition = FormStartPosition.CenterScreen;
             form.Show();
         }
 
